@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salaria Food And Spices- Home Page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://vimalpanmasalacompany.com/wp-content/uploads/2023/02/cropped-d89c6b2d-812b-4901-9927-81f4ff0c2200_11zon-removebg-preview-150x138.png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <style>
+      * {box-sizing:border-box}
+
+      .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: auto;
+  height: auto;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+      footer {
+  background-color: black;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  font-size: 16px;
+}
+footer * {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 3fr 2fr 4fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 em;
+  min-height: 15em;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 3fr 2fr 4fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+li:not(:first-child) {
+  margin-top: 0.8em;
+}
+ul li a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #c7940a;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+  width: 100%;
+}
+input,
+button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social i {
+  color: #bac6d9;
+}
+.copyright {
+ width: 100%;
+  background-color: #25262e;
+}
+.footer-menu{
+  float: left;
+  margin-top: 10px;
+}
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 0px;
+  text-decoration: none;
+}
+.footer-menu a:hover, .social i:hover{
+  color: #c7940a;
+}
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+}
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: black;
+}
+
+
+
+      nav :hover{
+        color: green
+      }
+    </style>
+</head>
+<body style = "background-color: #f2f0cb">
+    
+  <nav style = "text-decoration: none; height: 100px; background-color: red;">
+  
+    <div style="font-family: Alkatra; width: 100%; text-decoration: none;">
+    <img src = "images/vimal_masale.png" style = "height:5%; width: 5%;"> 
+      <a rel = "Home page " style = "text-decoration: none; margin-left:37%;font-size: x-large; color: white" href = "page1.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+      </svg><b>Home</b> </a>
+  
+    
+    
+      <a rel = "Home page " style = "text-decoration: none;margin-left: 5%; margin-right: 5%;font-size:x-large ; color: white" href = "page2.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+      </svg>About Us </a>
+  
+    
+    
+      <a rel = "Home page " style = "text-decoration: none;margin-right: 14%; font-size: x-large; color: white" href="page3.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+      </svg> Contact </a>
+      <div class="btn-group">
+        <button type="button " style = "margin-right: 1%" class ="btn btn-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+          <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+        </svg> <b style = "margin-right: 1%"> Account</b></button>
+        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Login</a></li>
+          <li><a class="dropdown-item" href="#">Register</a></li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav> 
+  
+  <img src = "images/salaria_banner.jpeg" style = "width: 100%; height : 20%; margin-top: 0.5em; margin-bottom: 0.5em; color: black">
+  <p style = "font-family: Alkatra; font-size: x-large;"><br>Why go outside when you can get restaurant-quality food in your home? Vimal brings to you authentic multi cuisine dishes that are as good as the food you get outside, in fact even better hassle free cooking!</p>
+  <p style = "font-family: Alkatra; font-size: xx-large;"><br><br><u><center><b><h1>Our Products</h1></b></center></u></p>
+ 
+  <br>
+  <img src = "images/1.jpg" style = "margin-left: 10%; margin-right: 10%;"><img src = "images/2.jpg" style = "margin-right: 10%;"><img src = "images/3.jpg" style = "margin-right: 10%"><img src = "images/4.jpg" style = "height: 11%; width: 11%"><br>
+  <div style = "margin-top: 5%;"><img src = "images/5.jpg" style = "margin-left: 10%; margin-right: 10%"><img src = "images/6.jpg" style = "height: 11%; width: 11%; margin-right: 10%;" ><img src = "images/7.jpg" style = "height: 11%; width: 11%; margin-right: 10%;"><img src = "images/8.jpg" style = "height: 11%; width: 11%;"><br></div>
+  <div style = "margin-top: 5%"><img src = "images/9.jpg" style = "margin-left: 10%; margin-right: 10%;"><img src = "images/10.jpg" style = "margin-right: 10%;"><img src = "images/11 (2).jpg" style = "margin-right: 10%; height: 11%; width: 11%;"><img src = "images/12.jpg" style = "height: 17%; width: 17%;"><br></div>
+  <div style = "margin-top: 5%;">  <img src = "images/13.jpg" style = "height: 15%; width: 15% ;margin-left: 10%; margin-right: 10%"><img src = "images/14.jpg" style = " height : 6%; width: 6%;margin-right: 10%;"><img src = "images/15.jpg" style="height: 12%; width: 12%; margin-right: 10%;"><img src = "images/16.jpg" style = "width: 11%; height: 11%"><br></div>
+  <div style = "margin-top: 5%; margin-bottom: 5%;"><img src = "images/17.jpg" style = "margin-left: 10%; margin-right: 10%"><img src = "images/18.jpg" style = "height: 12%; width: 12%; margin-right: 10%;"><img src = "images/19.jpg" style = "height: 11%; width: 11%"></div>
+  
+
+  </body> 
+  
+ <footer>
+  <div class="row primary" style = "width: 100%;">
+    <div class="column about">
+        <h3>Connect</h3>
+        <p>
+            <i class="fa fa-map-marker" aria-hidden="true"></i> 15, Venus Chowk, Shakti Nagar, Udhampur 182101
+        <div class="social">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-linkedin-square"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+    </div>
+
+    <div class="column link">
+        <h3>Links</h3>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="page2.html">About Us</a></li>
+            <li><a href="page3.html">Contact</a></li>
+            
+        </ul>
+    </div>
+
+    <div class="column subscribe">
+        <h3>Newsletter</h3>
+        <div>
+           <input type="email" placeholder="Your email id here" />
+           <button>Subscribe</button>
+        </div>
+    </div>
+</div>
+<div class="row copyright">
+  <div class="footer-menu">
+
+  <a href="#">Home</a>
+  
+  <a href="page2.html">About Us</a>
+  <a href="page3.html">Contact</a>
+  
+
+  </div>
+   <p>Copyright &copy; 2023</p>
+</div>
+ </footer>     
+      
+<script src = "script.js"></script>
+</html>

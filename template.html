@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>{% block title} Salaria Foods and Spices {%endblock title}</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://vimalpanmasalacompany.com/wp-content/uploads/2023/02/cropped-d89c6b2d-812b-4901-9927-81f4ff0c2200_11zon-removebg-preview-150x138.png" />
+        <link rel="stylesheet" href="themify-icons.css">
+        <link rel="stylesheet" href="pigga.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <style>
+        
+          img {
+            vertical-align: middle;
+            
+            
+          }
+          .post-thumb {
+        float: left
+    }
+    .post-thumb img {
+      height: 500px;
+      width : 600px;
+      display: block;
+      float: right;
+      
+    }
+    .post-content {
+        margin-left: 10px
+    }
+    footer {
+      background-color: green;
+      color: white;
+      bottom: 0;
+      width: 100vw;
+      font-size: 16px;
+    }
+    footer * {
+      box-sizing: border-box;
+      border: none;
+      outline: none;
+    }
+    .row {
+      padding: 1em 1em;
+    }
+    .row.primary {
+      display: grid;
+      grid-template-columns: 3fr 2fr 4fr;
+      align-items: stretch;
+    }
+    .column {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 0 2em;
+      min-height: 15em;
+    }
+    .row {
+      padding: 1em 1em;
+    }
+    .row.primary {
+      display: grid;
+      grid-template-columns: 3fr 2fr 4fr;
+      align-items: stretch;
+    }
+    .column {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 0 2em;
+      min-height: 15em;
+    }
+    h3 {
+      width: 100%;
+      text-align: left;
+      color: white;
+      font-size: 1.4em;
+      white-space: nowrap;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+    }
+    li:not(:first-child) {
+      margin-top: 0.8em;
+    }
+    ul li a {
+      color: #a7a7a7;
+      text-decoration: none;
+    }
+    ul li a:hover {
+      color: #c7940a;
+    }
+    .about p {
+      text-align: justify;
+      line-height: 2;
+      margin: 0;
+    }
+    input,
+    button {
+      font-size: 1em;
+      padding: 1em;
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 5px;
+    }
+    button {
+      background-color: #c7940a;
+      color: #ffffff;
+    }
+    div.social {
+      display: flex;
+      justify-content: space-around;
+      font-size: 2.4em;
+      flex-direction: row;
+      margin-top: 0.5em;
+    }
+    .social i {
+      color: #bac6d9;
+    }
+    .copyright {
+      padding: 0;
+      background-color:green;
+    }
+    .footer-menu{
+      float: left;
+        margin-top: 10px;
+    }
+    .footer-menu a{
+      color: #cfd2d6;
+      padding: 0;
+      text-decoration: none;
+    }
+    .footer-menu a:hover, .social i:hover{
+      color: #c7940a;
+    }
+    .copyright p {
+      font-size: 0.9em;
+      text-align: right;
+    }
+    @media screen and (max-width: 850px) {
+      .row.primary {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    nav :hover{
+      color: green
+    }
+    </style>
+    </head>
+    <body>
+        {% block content %}
+        {% endblock content %}
+    </body>
+    <footer>
+        <footer style = "width: 102%; background-color: green; margin-bottom: 0%;">
+            <div class="row primary" style = "width: 100%;">
+              <div class="column about ">
+                  <h3>Connect</h3>
+                  <p>
+                      <i class="fa fa-map-marker" aria-hidden="true"></i> 15, Venus Chowk, Shakti Nagar, Udhampur 182101
+                  <div class="social">
+                      <i class="fa fa-facebook-square"></i>
+                      <i class="fa fa-twitter-square"></i>
+                      <i class="fa fa-linkedin-square"></i>
+                      <i class="fa fa-instagram"></i>
+                  </div>
+              </div>
+          
+              <div class="column link">
+                  <h3>Links</h3>
+                  <ul>
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="page2.html">About Us</a></li>
+                      <li><a href="page3.html">Contact</a></li>
+                      
+                  </ul>
+              </div>
+          
+              <div class="column subscribe">
+                  <h3>Newsletter</h3>
+                  <div>
+                     <input type="email" placeholder="Your email id here" />
+                     <button>Subscribe</button>
+                  </div>
+              </div>
+              
+          </div>
+          <center><p>Copyright &copy; 2023</p></center>
+
+    
+    </footer>
+</html>
