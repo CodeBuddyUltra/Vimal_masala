@@ -11,7 +11,7 @@
         color: green
       }
       footer {
-  background-color: black;
+  background-color: green;
   color: white;
   bottom: 0;
   width: 100vw;
@@ -173,10 +173,10 @@ input[type=submit]:hover {
 </head>
 <body style = "background-color: #f2f0cb">
     
-  <nav style = "text-decoration: none; height: 100px; background-color: red;">
+  <nav style = "text-decoration: none; height: 100px; background-color: red; ">
   
     <div style="font-family: Alkatra; width: 100%; text-decoration: none;">
-    <img src = "images/vimal_masale.png" style = "height:5%; width: 5%;"> 
+    <img src = "images/vimal_masale.png" style = "height:6.5%; width: 6.5%; margin-left: 2%"> 
       <a rel = "Home page " style = "text-decoration: none; margin-left:37%;font-size: x-large; color: white" href = "page1.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
         <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
@@ -194,7 +194,7 @@ input[type=submit]:hover {
       <a rel = "Home page " style = "text-decoration: none;margin-right: 14%; font-size: x-large; color: white" href="page3.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
         <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
-      </svg> <b> Contact</b> </a>
+      </svg><b>Contact</b></a>
       <div class="btn-group">
         <button type="button " style = "margin-right: 1%" class ="btn btn-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
           <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
@@ -243,7 +243,7 @@ input[type=submit]:hover {
   </td>
   <td style = "width: 50%;">
     <div class="container" style="width: 76%">
-      <form action = "mailto: kidsunfold@gmail.com">
+      <form action = "mailto: salariafoods@gmail.com?">
         <center> Contact Us!</center>
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -254,7 +254,7 @@ input[type=submit]:hover {
         
     
         <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" onclick = "onClick()"></textarea>
     
         <input type="submit" value="Submit" id = "sub1">
     
@@ -280,6 +280,7 @@ input[type=submit]:hover {
               <h3>Connect</h3>
               <p>
                   <i class="fa fa-map-marker" aria-hidden="true"></i> 15, Venus Chowk, Shakti Nagar, Udhampur 182101
+              </p>
               <div class="social">
                   <i class="fa fa-facebook-square"></i>
                   <i class="fa fa-twitter-square"></i>
@@ -305,21 +306,14 @@ input[type=submit]:hover {
                  <button>Subscribe</button>
               </div>
           </div>
+          
       </div>
-      <div class="row copyright">
-        <div class="footer-menu">
-      
-        <a href="#">Home</a>
-        
-        <a href="page2.html">About Us</a>
-        <a href="page3.html">Contact</a>
-        
-      
-        </div>
-         <p>Copyright &copy; 2023</p>
-      </div>
+      <center><p>Copyright &copy; 2023</p></center>
        </footer> 
       
-  <script src = "script.js"></script>   
-
+<script type = "text/javascript">
+  function onClick(){
+    document.form.button.innerHTML = "Submitted"
+  }
+</script>
 </html>
