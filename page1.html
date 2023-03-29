@@ -185,6 +185,29 @@ div.social {
         color: green
       }
     </style>
+
+<style>
+table, th, td {
+  border: 0px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+</style>
+
+<script>
+function toggle(el) {
+var tag=document.getElementById(el);
+  tag.style.display = tag.style.display === 'block' ? 'none' : 'block';
+}
+</script>
+
+
+
 </head>
 <body style = "background-color: #f2f0cb">
     
@@ -196,15 +219,12 @@ div.social {
         <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
         <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
       </svg><b>Home</b> </a>
-  
-    
-    
+      
       <a rel = "Home page " style = "text-decoration: none;margin-left: 5%; margin-right: 5%;font-size:x-large ; color: white" href = "page2.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
         <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
       </svg>About Us </a>
   
-    
     
       <a rel = "Home page " style = "text-decoration: none;margin-right: 14%; font-size: x-large; color: white" href="page3.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
@@ -213,17 +233,8 @@ div.social {
       <div class="btn-group">
         <button type="button " style = "margin-right: 1%" class ="btn btn-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
           <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
-        </svg> <b style = "margin-right: 1%"> Account</b></button>
-        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-          <span class="visually-hidden">Toggle Dropdown</span>
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Login</a></li>
-          <li><a class="dropdown-item" href="#">Register</a></li>
-          
-          
-        </ul>
-      </div>
+        <b style = "margin-right: 1%"> Account</b></button>
+        </div>
     </div>
   </nav> 
   
@@ -231,16 +242,33 @@ div.social {
   <p style = "font-family: Alkatra; font-size: x-large; margin-left: 10%; margin-right: 10%"><br>Why go outside when you can get restaurant-quality food in your home? Vimal brings to you authentic multi cuisine dishes that are as good as the food you get outside, in fact even better hassle free cooking! in 2013 ,India Salaria Food & Spices has gained immense expertise and popularity in supplying & trading of Chilly powder, turmeric powder, chat masala etc. Buy Chilly powder, turmeric powder, chat masala in bulk from us for the best quality products and service.</p>
   <p style = "font-family: Alkatra; font-size: xx-large;"><u><center><b><h1>Our Products</h1></b></center></u></p>
  
-  <br>
-  <img src = "images/1.jpg" style = "margin-left: 10%; margin-right: 10%;"><img src = "images/2.jpg" style = "margin-right: 10%;"><img src = "images/3.jpg" style = "margin-right: 10%"><img src = "images/4.jpg" style = "height: 11%; width: 11%"><br>
+<div>
 
-  <div style = "margin-top: 5%;"><img src = "images/5.jpg" style = "margin-left: 10%; margin-right: 10%"><img src = "images/6.jpg" style = "height: 11%; width: 11%; margin-right: 10%;" ><img src = "images/7.jpg" style = "height: 11%; width: 11%; margin-right: 10%;"><img src = "images/8.jpg" style = "height: 11%; width: 11%;"><br></div>
-  <div style = "margin-top: 5%"><img src = "images/9.jpg" style = "margin-left: 10%; margin-right: 10%;"><img src = "images/10.jpg" style = "margin-right: 10%;"><img src = "images/11 (2).jpg" style = "margin-right: 10%; height: 11%; width: 11%;"><img src = "images/17.jpg" style = "height: 11%; width: 11%"><br></div>
-  <div style = "margin-top: 5%;">  <img src = "images/14.jpg" style = "height : 6%; width: 6%;margin-right: 10%; margin-left: 10%;"><img src = "images/18.jpg" style = " height : 12%; width: 12%;margin-right: 10%;"><img src = "images/15.jpg" style="height: 12%; width: 12%; margin-right: 10%;"><img src = "images/16.jpg" style = "width: 11%; height: 11%"><br></div>
-  <div style = "margin-top: 5%; margin-bottom: 5%;"><img src = "images/12.jpg"  style = "height: 17%; width: 17%; margin-left: 10%; margin-right: 10%;"><img src = "images/13.jpg" style = "height: 15%; width: 15% ; margin-right: 10%"><img src = "images/19.jpg" style = "height: 11%; width: 11%"></div>
-  
+<table style="border:1px solid black;margin-left:auto;margin-right:auto;" width=80%>
+<tr>
+<td> <img src = "images/1.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1</td> <td> <img src = "images/2.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1</td> <td><img src = "images/3.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1 </td> <td> <img src = "images/4.jpg" width="auto" height="250"><br>Image 1 <br>Price 1</td>
+</tr>
 
-  </body> 
+<tr>
+<td> <img src = "images/5.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1</td> <td> <img src = "images/6.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1</td> <td><img src = "images/7.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1 </td> <td> <img src = "images/8.jpg" width="auto" height="250"><br>Image 1 <br>Price 1</td>
+</tr>
+
+<tr>
+<td> <img src = "images/9.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1</td> <td> <img src = "images/10.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1</td> <td><img src = "images/11.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1 </td> <td> <img src = "images/17.jpg" width="auto" height="250"><br>Image 1 <br>Price 1</td>
+</tr>
+
+<tr>
+<td> <img src = "images/19.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1</td> <td> <img src = "images/14.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1</td> <td><img src = "images/15.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1 </td> <td> <img src = "images/16.jpg" width="auto" height="250"><br>Image 1 <br>Price 1</td>
+</tr>
+
+<tr >
+<td> <img src = "images/12.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1</td> <td> <img src = "images/18.jpg" width="auto"  height="250"><br>Image 1 <br>Price 1</td> <td><img src = "images/13.jpg" width="auto"  height="250"> <br>Image 1 <br>Price 1</td> 
+</tr>
+
+</table>
+</div>
+<br><br>
+</body> 
   
  <footer>
   <div class="row primary" style = "width: 100%;">
