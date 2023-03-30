@@ -11081,15 +11081,9 @@ a.text-dark:hover, a.text-dark:focus {
   z-index: 10 !important;
 }
 
-::-webkit-scrollbar {
-  width: 5px;
-  background: #212529;
-}
 
-::-webkit-scrollbar-thumb {
-  background: #ae7f41;
-  border-radius: 20px;
-}
+
+
 
 ::-webkit-scrollbar-thumb:hover {
   background: #bc8c4c;
